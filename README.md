@@ -1,6 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/101397de-a069-4b09-8e45-18d1e8d2a2b4/deploy-status)](https://app.netlify.com/sites/kohlin/deploys)
 
 #vmtipset
+website: https://kohlin.info
 # poäng 
 
 | poäng | kategori      | maxpoäng |
@@ -67,3 +68,8 @@ Unschedule:
 ```
 SELECT cron.unschedule('get-football-scores');
 ```
+
+
+
+
+

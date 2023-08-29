@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    /* ------------------------------------------ */
+    /*    My styles
+    /* ------------------------------------------ */
+
+    fieldset {
+        padding: unset;
+    }
+
+    .saveJumbotron {
+        @apply fixed bg-[#1b1c1d]/95 z-10 right-1 top-1 flex items-baseline transition-all duration-200 rounded-full;
+    }
+
+    .saveJumbotron button {
+        margin: 0 !important
+    }
+
+    .saveJumbotron.active {
+        @apply border border-lime-400;
+    }
+
+    .saveStatus {
+        @apply text-lime-500 text-lg -translate-y-8 transition-all duration-1000 opacity-0;
+    }
+
+    .saveStatus.active {
+        @apply translate-y-0 opacity-100;
+    }
+
+    .group {
+        @apply text-base text-center m-0 text-gray-400 flex items-center justify-center gap-2;
+    }
+
+    .group::before {
+        content: "";
+        width: 3em;
+        height: 1px;
+        display: inline-block;
+        @apply bg-gray-500;
+    }
+
+    .group::after {
+        content: "";
+        width: 3em;
+        height: 1px;
+        display: inline-block;
+        @apply bg-gray-500;
+    }
+
+    .label.flag {
+        tab-size: 4;
+        box-sizing: inherit;
+        display: inline-block;
+        line-height: 1;
+        vertical-align: baseline;
+        background-color: #e8e8e8;
+        background-image: none;
+        padding: .5833em 0.2em;
+        border: 0 solid transparent;
+        border-radius: .28571429rem;
+        transition: background .1s ease;
+        flex: 0 0 auto;
+        margin: 0;
+    }
+
+    .grid-auto-cols-2 {
+        grid-template-columns: max-content auto;
+    }
+
+    .grid-auto-cols-3 {
+        grid-template-columns: max-content max-content auto;
+    }
+}

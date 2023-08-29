@@ -1,0 +1,65 @@
+export default function ScoringTable() {
+    return (
+        <table className="ui celled unstackable table">
+            <thead>
+                <tr>
+                    <th><span>poäng</span></th>
+                    <th><span>kategori</span></th>
+                    <th><span>maxpoäng</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span>3</span></td>
+                    <td><span>1, X eller 2</span></td>
+                    <td><span>144</span></td>
+                </tr>
+                <tr>
+                    <td><span>4</span></td>
+                    <td><span>rätt resultat</span></td>
+                    <td><span>192</span></td>
+                </tr>
+                <tr>
+                    <td><span>16x6p</span></td>
+                    <td><span>8-del</span></td>
+                    <td><span>96</span></td>
+                </tr>
+                <tr>
+                    <td><span>8x11p</span></td>
+                    <td><span>kvartsfinal</span></td>
+                    <td><span>88</span></td>
+                </tr>
+                <tr>
+                    <td><span>4x15p</span></td>
+                    <td><span>semifinal</span></td>
+                    <td><span>60</span></td>
+                </tr>
+                <tr>
+                    <td><span>2x18p</span></td>
+                    <td><span>final</span></td>
+                    <td><span>36</span></td>
+                </tr>
+                <tr>
+                    <td><span>26</span></td>
+                    <td><span>vinnare</span></td>
+                    <td><span>26</span></td>
+                </tr>
+                <tr>
+                    <td><span>15</span></td>
+                    <td><span>brons</span></td>
+                    <td><span>15</span></td>
+                </tr>
+                <tr>
+                    <td><span>15</span></td>
+                    <td><span>skytte</span></td>
+                    <td><span>15</span></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><span><b>Summa</b></span></td>
+                    <td><span><b>672</b></span></td>
+                </tr>
+            </tbody>
+        </table>
+    )
+}

@@ -1,0 +1,7 @@
+// TODO: 
+-[x] byt ut de sista matcherna mot att tippa vilka lag som kommer att vinna etc
+-[x] fixa till user bets
+-[x] spara bets fynkar ej
+-[x] ange namn vid reg
+-[ ] svårt med reset: https://github.com/arpitdalal/remix-supabase-auth/blob/main/app/routes/forgot-password.tsx 
+-[ ] markera med en bock de matcher som är färdigspelade

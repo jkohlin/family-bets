@@ -1,0 +1,16 @@
+/node_modules
+/.cache
+/netlify/functions/server/index.js
+/public/build
+/.netlify
+
+.env
+.env.live
+.env.local
+
+/app/styles/tailwind.css
+
+.DS_Store
+/.vscode
+
+trash/
